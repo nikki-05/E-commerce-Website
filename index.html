@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mytalorzone By Sahiba</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+        <div class="container">
+            <nav>
+            <div class="logo">
+                <h1>MyTalorZone</h1>
+            </div>
+            <ul>
+                <li>
+                <a id="home" onclick="homes()">Home</a>
+                <a id="shop"  onclick="shops()">Shops</a>
+                <a id="blog" onclick="blogs()">Blog</a>
+                <a id="about" onclick="abouts()">About</a> 
+                <a id="contact" onclick="contacts()">Contact</a>
+                <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+                </li>
+            </ul>
+    </nav>
+
+    <!-- Main Section -->
+    <div class="main">
+        <div class="maintext">
+            <h2>Mytalorzone By Sahiba</h2>
+            <h1 class="top">Best Deals</h1>
+            <h1>On all Products</h1>
+            <p>Go through all our exclusive range</p>
+            <button class="explore-btn">Explore</button>
+        </div>
+        <img src="https://img.freepik.com/free-photo/portrait-beautiful-smart-smiling-hipster-brunette-woman-model-casual-stylish-blue-jeans-clothes-glasses-isolated-white-full-length_158538-13216.jpg?t=st=1734786361~exp=1734789961~hmac=670bea7051fb2104ca3d86ac777b369813e891ca8eab78941748cec93d542a29&w=740" alt="Main Image">
+    </div>
+
+    <!-- Cards Section -->
+    <div class="mytalor">
+        <div class="head">
+            <h1>Mytalor <span>Men's Wear</span></h1>
+        </div>
+        <div class="card">
+            <!-- Card 1 -->
+            <div class="crd">
+                <img src="https://www.beyours.in/cdn/shop/files/elite-white-2.jpg?v=1713157649&width=800" alt="Cotton Trending Shirts" onclick="show(this)">
+                <div class="crdtext">
+                    <h2>Cotton Trending Shirts</h2>
+                    <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i><br>
+                    </div>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <!-- Card 2 -->
+            <div class="crd">
+                <img src="https://images.mehar.com/product_thumbnail/1679476113-1.jpg" alt="New Shirts" onclick="show(this)">
+               <div class="crdtext">
+                <h2>New Shirts</h2>
+                    <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i><br>
+                    </div>
+               </div>
+                <button>Add to Cart</button>
+            </div>
+            <!-- Card 3 -->
+            <div class="crd">
+                <img src="https://images-cdn.ubuy.co.in/66860cc5b5fd042393618a6d-mens-t-shirts-men-s-summer-fashion.jpg" alt="Denim Shirts" onclick="show(this)">
+                <div class="crdtext">
+                    <h2>Denim Shirts</h2>
+                    <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i><br>
+                    </div>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="crd">
+                <img src="https://shop.mango.com/assets/rcs/pics/static/T7/fotos/S/77000579_08.jpg?imwidth=640&imdensity=1&ts=1717607056001" alt="New Shirts" onclick="show(this)">
+                <div class="crdtext">
+                    <h2>New Bottemwear</h2>
+                    <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i><br>
+                    </div>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cards Section for Women -->
+<div class="mytalor" id="women">
+    <div class="head">
+        <h1>Mytalor <span>Women's Wear</span></h1>
+    </div>
+    <div class="card">
+        <!-- Card 1 -->
+        <div class="crd">
+            <img src="https://www.apella.in/cdn/shop/products/WomenPlusSizeFiroziMuslinFancysuit_7.jpg?v=1669808003&width=493" alt="Summer Dresses" onclick="show(this)">
+            <div class="crdtext">
+                <h2>Trending Suits</h2>
+                <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i><br>
+                </div>
+            </div>
+            <button>Add to Cart</button>
+        </div>
+        <!-- Card 2 -->
+        <div class="crd">
+            <img src="https://www.jiomart.com/images/product/original/rvnecdnz6p/fabflee-party-printed-women-s-top-women-tops-crepe-top-tops-for-women-tops-for-women-product-images-rvnecdnz6p-0-202311022125.jpg?im=Resize=(600,750)" alt="Designer Tops" onclick="show(this)">
+            <div class="crdtext">
+                <h2>Designer Tops</h2>
+                <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i><br>
+                </div>
+            </div>
+            <button>Add to Cart</button>
+        </div>
+        <!-- Card 3 -->
+        <div class="crd">
+            <img src="https://raisinglobal.com/cdn/shop/products/MAX104_400x.jpg?v=1656004816" alt="Casual Outfits"onclick="show(this)">
+           <div class="crdtext"> 
+            <h2>Casual Outfits</h2>
+               <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i><br>
+                </div>
+            </div>
+            <button>Add to Cart</button>
+        </div>
+        <div class="crd">
+            <img src="https://apisap.fabindia.com/medias/20184827-01.jpg?context=bWFzdGVyfGltYWdlc3wxMDQ5MTZ8aW1hZ2UvanBlZ3xhRGRsTDJnMU5DODBPREkwTkRnNE1ERTBOalEyTWk4eU1ERTRORGd5TjE4d01TNXFjR2N8Y2UxNzE0YzNiNjcyNTE3YjZiNWJjYmU5MGVmNWRlMTVhYmI0Njg3NGU0NmUzOTk2NDFlM2QyMTgzMzViMmUzYQ" alt="Casual Outfits" onclick="show(this)">
+            <div class="crdtext">
+                <h2>Bottomwear Collection</h2>
+                <div class="rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i><br>
+                </div>
+            </div>
+            <button>Add to Cart</button>
+        </div>
+        
+    </div>
+</div>
+<!--about-->
+<div class="about">
+    <div class="aboutus">
+        <h1>#KnowUS</h1>
+        <p>The goal of this project is to create a user-friendly and visually appealing platform that 
+           enables effortless shopping for trendy clothing,
+           offering both functionality and style to enhance the online shopping experience.</p>
+
+    </div>
+    <div class="me">
+        <img src="image/logo1.png" alt="">
+        <div class="aboutText">
+            <h1>Why Us?</h1>
+            <p>At MytalorZone By Sahiba, we are passionate about redefining fashion with style, quality, 
+                and individuality. We specialize in curating an exquisite collection of clothing for men and women,
+                designed to elevate your wardrobe with contemporary trends and timeless classics.
+                Our brand is built on a foundation of creativity and excellence, combining the latest fashion insights with exceptional craftsmanship. 
+                Whether you're searching for the perfect casual outfit or standout pieces for special occasions, 
+                we are here to inspire confidence through clothing that complements your unique personality.
+                As a dedicated team, we prioritize customer satisfaction, ensuring a seamless shopping experience from browsing to checkout. 
+                With a commitment to innovation and inclusivity, we aim to make fashion accessible and enjoyable for everyone.
+                Join us on this journey to celebrate individuality and self-expression through fashion. Welcome to MytalorZone, 
+                where your style finds its zone.</p>
+        </div>
+    </div>
+</div>
+<!--contact-->
+<div class="contact">
+    <div class="contactus">
+        <h1>#Lets Connect</h1>
+        <p>Contact for colloboration and queries.</p>
+
+    </div>
+    <div class="contactme">
+        <div class="contactText">
+            <h1>Visit Us Today</h1>
+            <p>Address:Uttar Pradesh, India<br>
+               Building: A50<br>
+               Phone No: 8218861002<br>
+               Email:(R):nikitatewari1633@gmail.com<br>
+               .......(O):info@mytalorzonebysahiba@gmail.com
+            </p>
+                <img src="https://img.freepik.com/free-vector/city-map-with-label-home-pin_1284-42340.jpg?t=st=1734937724~exp=1734941324~hmac=023523a192ba21945ff07e772240295dcb30b9f7c9f765867498a07ae18c36a6&w=740" alt="">
+        </div>
+        <div class="form">
+            <h1>Connect With Us Form</h1>
+            <input type="text" placeholder="Enter Email"><br>
+            <input type="text" placeholder="Name"> <br>
+            <input type="text" placeholder="Contact No."><br>
+            <input type="text" placeholder="your Query"><br>
+            <button>Submit</button>
+        </div>
+    </div>
+</div>
+<!--cart-->
+<div class="cart">
+    <img id="newimg" src="" alt="">
+    <div class="cartText">
+        <h1>Mytalor's Offer: Trending Shops</h1>
+        <h2>Special Offer</h2>
+        <h2>499 Only</h2>
+        <p>Garments from our exclusive range</p>
+        <div class="button">
+            <button>Buy Now</button>
+            <button onclick="addCart()">Add to Cart</button>
+        </div>
+        <button class="back">Go Back</button>
+    </div>
+</div>
+<!--blog-->
+<div class="mytalors">
+    <div class="head">
+        <h1>Clothings <span>For You</span></h1>
+    </div>
+    <div class="card">
+        <div class="blog">
+            <img src="https://images.jdmagicbox.com/quickquotes/images_main/comfy-feminine-women-dresses-2138672293-uasekadv.jpg" alt="">
+            <div class="blogtext">
+                <h2>Women's Clothing</h2>
+                <p>Women's fashion is the  process of creating clothing, accessories, cosmetics, and jewelry.</p>
+                <a href="https://www.elsewherefashion.com/blog/5-x-trendy-outfits-for-women/">Read More</a>
+            </div>
+        </div>
+        <div class="blog">
+            <img src="https://thesparkshop.in/wp-content/uploads/2022/10/2018-New-Fashion-Casual-Men-Shirt-Long-Sleeve-Europe-Style-Slim-Fit-Shirt-Men-High-Quality__90065.1537167939.jpg" alt="">
+            <div class="blogtext">
+                <h2>Men's Clothing</h2>
+                <p>Men's fashion is often characterized by classic picks and timeless designs</p>
+                <a href="https://louisphilippe.abfrl.in/blog/dressing-for-the-season-casual-and-formal-looks-for-men/">Read More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--letter-->
+<div class="letter">
+    <div class="lettertext">
+        <h1>Sign Up for Newsletter</h1>
+        <p>The newsletter is related to fashion and clothing</p>
+    </div>
+    <div class="inp">
+        <input type="text" placeholder="Enter Email">
+        <button>Sign Up</button>
+    </div>
+</div>
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer">
+            <div class="footertext">
+                <h2>About Us</h2>
+                <p>Address: India</p>
+                <p>Customer </p>
+                <p>Satisfaction</p>
+            </div>
+            <div class="footertext">
+                <h2>Contact</h2>
+                <p>Phone: 8218861002</p>
+                <p>Email: info@mytalorzone</p>
+            </div>
+            <div class="footertext">
+                <h2>Trending</h2>
+                <p>Shops</p>
+                <p>Services</p>
+                <p>New Arrivals</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
